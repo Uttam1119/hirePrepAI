@@ -20,8 +20,8 @@
     npx inngest-cli@latest dev
 
 5️⃣ Set Up the Database  
-    Run the following Prisma command to create the models in your **Neon** database:  
-`
+    Run the following Prisma command to create the models in your Neon database:  
+
     npx prisma migrate dev --name create-models
 
 6️⃣ Start the Development Server  
