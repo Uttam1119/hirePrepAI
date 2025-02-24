@@ -16,24 +16,24 @@ cd repo-name
 Run the following command to install the required dependencies:  
 ```sh
 npm install
-```
+
 
 ### 4️⃣ Start Inngest Development Server (For Inngest Functionality)  
 ```sh
 npx inngest-cli@latest dev
-```
+
 
 ### 5️⃣ Set Up the Database  
 Run the following Prisma command to create the models in your **Neon** database:  
 ```sh
 npx prisma migrate dev --name create-models
-```
+
 
 ### 6️⃣ Start the Development Server  
 Launch the development server with:  
 ```sh
 npm run dev
-```
+
 
 Now, your project should be up and running locally! 🚀  
 ```
