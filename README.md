@@ -1,38 +1,33 @@
 ```markdown
-## 🚀 Setting Up the Project Locally
+🚀 Setting Up the Project Locally
 
-Follow these steps to get started with the project on your local machine:
+1️⃣ Fork the Repository  
+    Click the **Fork** button at the top right of this repository to create your own copy.
 
-### 1️⃣ Fork the Repository  
-Click the **Fork** button at the top right of this repository to create your own copy.
+2️⃣ Clone the Repository  
+    Clone the forked repository to your local machine:  
 
-### 2️⃣ Clone the Repository  
-Clone the forked repository to your local machine:  
-```sh
-git clone https://github.com/your-username/repo-name.git
-cd repo-name
+    git clone https://github.com/your-username/repo-name.git
+    cd repo-name
 
-### 3️⃣ Install Dependencies  
-Run the following command to install the required dependencies:  
-```sh
-npm install
+3️⃣ Install Dependencies  
+    Run the following command to install the required dependencies:  
 
+    npm install
 
-### 4️⃣ Start Inngest Development Server (For Inngest Functionality)  
-```sh
-npx inngest-cli@latest dev
+4️⃣ Start Inngest Development Server (For Inngest Functionality)  
 
+    npx inngest-cli@latest dev
 
-### 5️⃣ Set Up the Database  
-Run the following Prisma command to create the models in your **Neon** database:  
-```sh
-npx prisma migrate dev --name create-models
+5️⃣ Set Up the Database  
+    Run the following Prisma command to create the models in your **Neon** database:  
+`
+    npx prisma migrate dev --name create-models
 
+6️⃣ Start the Development Server  
+    Launch the development server with:  
 
-### 6️⃣ Start the Development Server  
-Launch the development server with:  
-```sh
-npm run dev
+    npm run dev
 
 
 Now, your project should be up and running locally! 🚀  
