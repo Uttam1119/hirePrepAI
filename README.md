@@ -11,7 +11,6 @@ Clone the forked repository to your local machine:
 ```sh
 git clone https://github.com/your-username/repo-name.git
 cd repo-name
-```
 
 ### 3️⃣ Install Dependencies  
 Run the following command to install the required dependencies:  
@@ -53,4 +52,4 @@ NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/onboarding
 NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/onboarding
 
 GEMINI_API_KEY=
-```
+
