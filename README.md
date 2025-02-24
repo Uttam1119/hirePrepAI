@@ -7,8 +7,8 @@
 2️⃣ Clone the Repository  
     Clone the forked repository to your local machine:  
 
-    git clone https://github.com/your-username/repo-name.git
-    cd repo-name
+    git clone https://github.com/Uttam1119/sensAI---the-Master.git
+    cd sensAI---the-Master
 
 3️⃣ Install Dependencies  
     Run the following command to install the required dependencies:  
